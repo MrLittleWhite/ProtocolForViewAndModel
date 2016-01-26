@@ -15,6 +15,9 @@
 		8DF29F481C57CEE6005CD0D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DF29F461C57CEE6005CD0D5 /* LaunchScreen.storyboard */; };
 		8DF29F531C57CEE6005CD0D5 /* ProtocolForViewAndModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF29F521C57CEE6005CD0D5 /* ProtocolForViewAndModelTests.m */; };
 		8DF29F5E1C57CEE6005CD0D5 /* ProtocolForViewAndModelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF29F5D1C57CEE6005CD0D5 /* ProtocolForViewAndModelUITests.m */; };
+		8DF29F721C57CF11005CD0D5 /* AppleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF29F6C1C57CF11005CD0D5 /* AppleModel.m */; };
+		8DF29F731C57CF11005CD0D5 /* BananaModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF29F6E1C57CF11005CD0D5 /* BananaModel.m */; };
+		8DF29F741C57CF11005CD0D5 /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF29F701C57CF11005CD0D5 /* CustomTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,13 @@
 		8DF29F591C57CEE6005CD0D5 /* ProtocolForViewAndModelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProtocolForViewAndModelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DF29F5D1C57CEE6005CD0D5 /* ProtocolForViewAndModelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProtocolForViewAndModelUITests.m; sourceTree = "<group>"; };
 		8DF29F5F1C57CEE6005CD0D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DF29F6B1C57CF11005CD0D5 /* AppleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleModel.h; sourceTree = "<group>"; };
+		8DF29F6C1C57CF11005CD0D5 /* AppleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppleModel.m; sourceTree = "<group>"; };
+		8DF29F6D1C57CF11005CD0D5 /* BananaModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BananaModel.h; sourceTree = "<group>"; };
+		8DF29F6E1C57CF11005CD0D5 /* BananaModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BananaModel.m; sourceTree = "<group>"; };
+		8DF29F6F1C57CF11005CD0D5 /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		8DF29F701C57CF11005CD0D5 /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		8DF29F711C57CF11005CD0D5 /* CustomTableViewCellProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCellProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +115,13 @@
 				8DF29F3C1C57CEE6005CD0D5 /* AppDelegate.m */,
 				8DF29F3E1C57CEE6005CD0D5 /* ViewController.h */,
 				8DF29F3F1C57CEE6005CD0D5 /* ViewController.m */,
+				8DF29F6B1C57CF11005CD0D5 /* AppleModel.h */,
+				8DF29F6C1C57CF11005CD0D5 /* AppleModel.m */,
+				8DF29F6D1C57CF11005CD0D5 /* BananaModel.h */,
+				8DF29F6E1C57CF11005CD0D5 /* BananaModel.m */,
+				8DF29F6F1C57CF11005CD0D5 /* CustomTableViewCell.h */,
+				8DF29F701C57CF11005CD0D5 /* CustomTableViewCell.m */,
+				8DF29F711C57CF11005CD0D5 /* CustomTableViewCellProtocol.h */,
 				8DF29F411C57CEE6005CD0D5 /* Main.storyboard */,
 				8DF29F441C57CEE6005CD0D5 /* Assets.xcassets */,
 				8DF29F461C57CEE6005CD0D5 /* LaunchScreen.storyboard */,
@@ -272,6 +289,9 @@
 			files = (
 				8DF29F401C57CEE6005CD0D5 /* ViewController.m in Sources */,
 				8DF29F3D1C57CEE6005CD0D5 /* AppDelegate.m in Sources */,
+				8DF29F741C57CF11005CD0D5 /* CustomTableViewCell.m in Sources */,
+				8DF29F731C57CF11005CD0D5 /* BananaModel.m in Sources */,
+				8DF29F721C57CF11005CD0D5 /* AppleModel.m in Sources */,
 				8DF29F3A1C57CEE6005CD0D5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
